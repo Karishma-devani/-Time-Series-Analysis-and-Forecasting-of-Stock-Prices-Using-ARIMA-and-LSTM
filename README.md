@@ -16,29 +16,4 @@ This project analyzes and forecasts stock prices (e.g., Apple - AAPL) using hist
 - **Features**: Close, Open, High, Low, Volume prices for the selected stock
 - **No Manual Upload Required**: Data is fetched live using `yfinance`, requiring only an internet connection.
 
-## Prerequisites
-- Python 3.8 or higher
-- Google Colab (recommended for running the code) or a local Python environment
-- Required libraries:
-  - `yfinance`
-  - `statsmodels`
-  - `tensorflow`
-  - `pmdarima`
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `sklearn`
 
-## Installation
-1. **Set Up Google Colab** (Recommended):
-   - Open Google Colab (https://colab.research.google.com/).
-   - Create a new notebook and run the following cell to mount your Google Drive and install dependencies:
-
-     ```python
-     # Mount Google Drive
-     from google.colab import drive
-     drive.mount('/content/drive')
-
-     # Install dependencies
-     !pip install yfinance statsmodels tensorflow pmdarima -q
